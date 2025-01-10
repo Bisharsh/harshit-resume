@@ -1,0 +1,172 @@
+% !TEX root = resume.tex
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[empty]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage[explicit]{titlesec}
+\usepackage{array}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+% Adjust page margins
+\geometry{
+    top=1.0cm,
+    bottom=1.0cm,
+    left=1.2cm,
+    right=1.2cm
+}
+
+% Add horizontal line after section titles
+\titleformat{\section}
+  {\Large\bfseries}
+  {}{0em}
+  {#1}
+  [{\titlerule[0.8pt]}]
+
+% Reduce spacing between items in itemize environments
+\setlist[itemize]{topsep=0pt,itemsep=2pt,parsep=0pt,partopsep=0pt}
+
+% Define a new itemize environment for job descriptions with dashes
+\newenvironment{dashlist}{
+  \begin{itemize}[label={--}]
+}{
+  \end{itemize}
+}
+
+\newcommand{\circularimage}[2][4cm]{
+    \begin{tikzpicture}
+        \clip (0, 0) circle (#1/2); % Clip the image to a perfect circle
+        \node[inner sep=0] {
+            \includegraphics[width=#1,height=#1]{#2}
+        };
+    \end{tikzpicture}
+}
+\pagestyle{empty}
+
+% Suppress page numbering
+\begin{document}
+
+% Header section
+\noindent
+\begin{minipage}{0.6\textwidth}
+    \raggedright
+    {\huge\textbf{Harshit Bisht}}\par\vspace{0.5em}
+    \faHome\ Erwin Rommel Straße 51,\par
+    \phantom{\faHome\ }91058, Erlangen\par
+    \faMobile\ (+49) 15214065674\par
+    \faEnvelope\ harshit.bisht108@gmail.com\par
+    \faGithub\ \href{https://github.com/Bisharsh}{github.com/Bisharsh}\par
+    \faLinkedin\ \href{https://www.linkedin.com/in/harshitbisht/}{linkedin.com/in/harshitbisht}\par
+    \faResearchgate\ \href{https://www.researchgate.net/profile/Harshit-Bisht}{researchgate.net/profile/Harshit-Bisht}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+    \raggedleft
+    \circularimage[4cm]{Harshit-Photo.jpg}
+\end{minipage}
+
+\section*{ABOUT ME}
+Skilled DevOps Engineer with 3+ years of experience specializing in automating \& optimizing cloud infrastructure and deployments. Possesses B1 level German proficiency and strong hands-on experience in Azure, AWS, Github Actions, Azure DevOps, Docker, Kubernetes and Terraform, with a passion for developing solutions to streamline the Software Development Lifecycle.
+
+\section*{SKILLS}
+\textbf{DevOps:} Azure DevOps, GCP Cloud Build, Bash, Docker, Helm, Git, Github Actions, Terraform, Kubernetes\\
+\textbf{Cloud:} AWS EKS, EC2, S3, Google Kubernetes Engine, Azure Kubernetes Service, Azure AD, Azure DevOps\\
+\textbf{Other Tools:} Jira, Confluence, Lens, Rancher, Datadog, Postman, Office 365, VS Code, Visual Studio\\
+\textbf{Soft Skills: }Problem Solving, Communication, Teamwork, Time Management, Adaptability\\
+\textbf{Languages: }English (C1), German (B1)
+
+\section*{WORK EXPERIENCE}
+\noindent\textbf{PricewaterhouseCoopers (PwC AC)}\hfill Bangalore, India
+\begin{itemize}
+\item \textbf{Associate 2 - DevOps Engineer}\hfill Jul 2022 - Oct 2024
+\end{itemize}
+\begin{dashlist}
+    \item AKV secret management: Reduced manual update time from 2 days to 10 minutes by developing a secret rotation pipeline using Azure DevOps, significantly enhancing security and operational efficiency.
+    \item Resolved AgentPool Bottleneck: Decreased pipeline queue by 80\% via implementation of a self-hosted Azure DevOps AgentPool with Docker Agents, enabling the team to run multiple pipelines across projects.
+    \item Deployment \& Troubleshooting: Worked with dev and L3 teams from Germany, US, Poland, Romania, China \& Mexico, assisting them with deployments on AKS using Helm, rollbacks \& troubleshooting issues.
+    \item Accelerated SDLC: Improved development cycle speed by 50\% via PR Build Verification Pipeline utilizing a two-agent setup (Listener \& Builder), automating code builds \& tests for every PR created.
+    \item Managed Kubernetes Clusters: Managed and upgraded Kubernetes clusters across EMEA and US without any downtime post validating the prerequisites: Pod Disruption Budgets, Ingress version etc.
+    \item Multi-region infrastructure management: Created and maintained Azure infrastructure for ChatPwC project across EMEA and US using Terraform modules and ADO YAML pipelines.
+\end{dashlist}
+
+\medskip
+
+\begin{itemize}
+\item \textbf{Associate - Cloud Engineer}\hfill Jun 2021 - Jul 2022
+\end{itemize}
+\begin{dashlist}
+    \item Cloud cost optimization: Reduced cloud expenses by conducting thorough analysis, identifying, and cleaning up non-essential resources across multiple Azure subscriptions.
+    \item CI/CD platform migration: Successfully migrated 33 Jenkins pipelines to Azure DevOps for PwC Trust division, meeting strict deadlines and supporting the transition to a more robust and centralized platform.
+    % \item Enhanced CI pipeline security: Improved robustness and security of CI pipelines by replacing Docker-in-Docker (DinD) with Kaniko build process, mitigating potential security vulnerabilities.
+    \item Data pipeline automation: Streamlined data manipulation for United Parcel Service (UPS) by designing and implementing ETL pipelines on Azure Data Factory.
+\end{dashlist}
+
+\noindent\textbf{Amazon}\hfill Noida, India
+\begin{itemize}
+\item \textbf{SDS Associate}\hfill Sep 2020 - May 2021
+\end{itemize}
+\begin{dashlist}
+    \item Data management: Streamlined information flow for Amazon Logistics across North America, managing data for 500+ delivery stations and impacting 80+ daily deliveries, ensuring efficient operations.
+    \item Team leadership and mentoring: Guided and mentored 8 new associates as a Subject Matter Expert (SME), taking responsibility for their processes and deliverables.
+    \item Quality improvement initiative: Enhanced deliverables' quality by reviewing 100+ work items weekly and providing targeted feedback, resulting in a 20\% reduction in errors and improved overall performance.
+\end{dashlist}
+
+\section*{EDUCATION}
+\noindent\textbf{Guru Gobind Singh Indraprastha University}\hfill New Delhi, India\\
+Bachelor of Technology\hfill Aug 2016 - Sep 2020
+
+\section*{PROJECT EXPERIENCE}
+\noindent\textbf{go-web-app}\\
+\textit{Skills: GitHub Actions, AWS, Kubernetes, OIDC, Terraform, Go, ArgoCD}\\
+Deployed a go web app using Github Actions for CI on EKS cluster instated in us-east-1 via terraform automation utilising ArgoCD for the CD and OIDC for AWS authentication.
+\vspace{0.5em}
+
+\noindent\textbf{Netflix-AWS}\\
+\textit{Skills: GitHub Actions, Terraform, Kubernetes, AWS}\\
+Deployed a Netflix clone to an Amazon Elastic Kubernetes Service (EKS) cluster using GitHub Actions for CI/CD and Terraform as Infrastructure as Code (IaC).
+\vspace{0.5em}
+
+\noindent\textbf{akv-automation}\\
+\textit{Skills: Azure DevOps, Azure Key Vault, CI/CD}\\
+Developed an Azure DevOps pipeline to automate the movement of secrets from the Azure library to Azure Key Vault for the respective environments.
+\vspace{0.5em}
+
+\noindent\textbf{git-access}\\
+\textit{Skills: Bash, Git}\\
+Created a Bash script to automate checking access permissions to GitHub repositories.
+
+\section*{CERTIFICATES}
+\begin{itemize}
+    \item HashiCorp Certified: Terraform Associate (003)
+    \item Microsoft Certified: DevOps Engineer Expert (AZ-400)
+    \item Microsoft Certified: Azure Administrator Associate (AZ-104)
+    \item Microsoft Certified: Azure AI Engineer Associate (AI-102)
+    \item Microsoft Certified: Azure Fundamentals (AZ-900)
+    \item Microsoft Certified: Azure Data Fundamentals (DP-900)
+    \item Microsoft Certified: Azure AI Fundamentals (AI-900)
+    \item Amazon Web Services: AWS Certified Cloud Practitioner
+    \item Google Cloud platform: GCP Associate Cloud Engineer
+    \item PwC: Data-Driven Decision Making, Digital Acumen Knowledge Badge
+    \item Goethe Institut: Goethe-Zertifikat B1
+    \item Duolingo English Test: CEFR C1 (Advanced)
+\end{itemize}
+
+\section*{RESEARCH PUBLICATIONS}
+\begin{itemize}
+    \item Artificial Intelligence in the Insurance Sector - Journal of The Gujarat Research Society
+    \item Blockchain for Loyalty Rewards Program Management - Journal of The Gujarat Research Society
+    \item Rocker Rover And Its Implementation - Journal of Emerging Technologies
+    \item Modeling of Rocker Rover for Its Implementation - IJRTE (SCOPUS INDEXED JOURNAL)
+\end{itemize}
+
+\vfill % Pushes the content to the bottom of the page
+\noindent % Prevents paragraph indentation
+\begin{flushright} % Aligns text to the right
+    \textit{Date: 10.01.2025}\\ % Adds the date below the name
+    \textit{Harshit Bisht} % Adds your signature name
+\end{flushright}
+
+\end{document}
