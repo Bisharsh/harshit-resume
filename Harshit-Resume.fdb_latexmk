@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738446739.99283 "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" "Harshit-Resume.pdf" "Harshit-Resume" 1738446740.63916 2
-  "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" 1738446738.91688 8735 c7968ed4f7bab2beb0a9d11f9e086fc5 ""
+["pdflatex"] 1738594074.88197 "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" "Harshit-Resume.pdf" "Harshit-Resume" 1738594075.53608 2
+  "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" 1738594073.88994 9648 9b37c55d50d82543daf397f735526eeb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -26,6 +26,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands1.tfm" 1651520503 1140 0a3461c8ac1b92031890aa540c40b3b4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -98,6 +99,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex" 1673816307 4385 510565c2f07998c8a0e14f0ec07ff23c ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex" 1673816307 29239 22e8c7516012992a49873eff0d868fed ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def" 1673816307 6950 8524a062d82b7afdc4a88a57cb377784 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty" 1578692523 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1576624663 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/atveryend/atveryend.sty" 1576191570 19336 ce7ae9438967282886b3b036cfad1e4d ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty" 1576625391 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
@@ -158,9 +160,9 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732376842 8221431 10b8fc5e5bb89da799f19ff8aa10e80e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Harshit-Photo.jpg" 1732379397.09944 876763 34adc86e55586b33f63193f474c45003 ""
-  "Harshit-Resume.aux" 1738446740.5714 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "Harshit-Resume.out" 1738446740.40403 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Harshit-Resume.tex" 1738446738.91688 8735 c7968ed4f7bab2beb0a9d11f9e086fc5 ""
+  "Harshit-Resume.aux" 1738594075.47063 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "Harshit-Resume.out" 1738594075.31023 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Harshit-Resume.tex" 1738594073.88994 9648 9b37c55d50d82543daf397f735526eeb ""
   (generated)
   "Harshit-Resume.aux"
   "Harshit-Resume.log"
