@@ -213,9 +213,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT ./Harshit-Resume.aux
-INPUT ./Harshit-Resume.aux
-INPUT Harshit-Resume.aux
 OUTPUT Harshit-Resume.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
