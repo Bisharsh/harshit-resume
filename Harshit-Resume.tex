@@ -76,7 +76,7 @@ Passionate DevOps Engineer with 3+ years of experience specializing in automatio
 
 \section*{SKILLS}
 \textbf{DevOps:} Azure DevOps, Bash, Docker, Helm, Istio, Git, Github Actions, Crossplane, Terraform, Kubernetes\\
-\textbf{Cloud Platform:} Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)\\
+% \textbf{Cloud Platform:} Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)\\
 \textbf{Other Tools:} Jira, Confluence, Lens, Rancher, Datadog, Postman, Office 365, VS Code, Visual Studio\\
 \textbf{Soft Skills: }Problem Solving, Communication, Teamwork, Time Management, Adaptability\\
 \textbf{Languages: }English (C1), German (B1)
@@ -88,9 +88,11 @@ Passionate DevOps Engineer with 3+ years of experience specializing in automatio
     \item \textbf{DevOps Engineer\hfill Sept 2025 -- Present}
 \end{itemize}
 \begin{dashlist}
-    \item \uline{Multi-version Istio (VR/DR)}: Configured Istio Virtual and Destination Rules to enable deployment and routing of multiple app versions, supporting complex release strategies.
-    \item \uline{Release Management}: Automated default subset control using Azure variable groups, allowing rapid updates to the default app version for each release cycle.
-    \item \uline{Helm Chart Separation}: Improved CI/CD workflow by separating common Helm charts (e.g., VirtualService, ServiceAccount, Roles) from app-specific charts, ensuring only meaningful changes trigger deployment pipelines.
+    \item \uline{Multiple parallel app versions}: Configured Istio, CI/CD \& helmcharts to enable deployment of multiple app versions, supporting complex release strategies (four versions in parallel instead of blue-green).
+    \item \uline{PR enhancement workflow}: Introduced a github actions workflow to provide soft guidance to dev/review via comments on PRs, based on the conventional commit types.
+    \item \uline{k8s lease}: Implemented a Kubernetes Lease-based leader election mechanism to ensure to avoid multiple cronjob runs. 
+    \item \uline{Helm Chart segregation}: Improved CI/CD by separating helmcharts like: VS, DR, SA, roles; from app-specific charts, reducing re-rendering of non app-specific charts \& noise in ACR.
+    \item \uline{Introduced e2e testing}: Designed \& implemented end-to-end testing in the cd \& release AzDO pipeline, writing jest based tests.
 \end{dashlist}
 \medskip
 
@@ -118,7 +120,7 @@ Passionate DevOps Engineer with 3+ years of experience specializing in automatio
 \begin{dashlist}
     % \item \uline {AKV secret management}: Reduced manual update time from 2 days to 10 minutes by developing a secret rotation pipeline using Azure DevOps, significantly enhancing security and operational efficiency.
     \item \uline {AKV secret management}: Reduced manual update time from 2 days to 10 minutes by developing a secret rotation pipeline using Azure DevOps.
-    \item \uline {Multi-region infrastructure management}: Created and maintained Azure infrastructure for ChatPwC across EMEA \& US using Terraform modules \& Azure DevOps.
+    \item \uline {Multi-region infrastructure management}: Provisioned \& maintained Azure infrastructure for ChatPwC across EMEA \& US using Terraform modules \& Azure DevOps.
     % \item \uline {Resolved AgentPool Bottleneck}: Decreased pipeline queue by 80\% via implementation of a self-hosted Azure DevOps AgentPool with Docker Agents, enabling the team to run multiple pipelines across projects.
     \item \uline {Resolved AgentPool Bottleneck}: Decreased pipeline queue by 80\% via implementation of a self-hosted Azure DevOps AgentPool with Docker Agents.
     % \item \uline {Deployment \& Troubleshooting}: Deployed and troubleshot ChatPwC \& plugins on AKS clusters while working with dev teams across US, Poland, Germany, Romania, China \& Mexico.
@@ -151,13 +153,13 @@ Passionate DevOps Engineer with 3+ years of experience specializing in automatio
 \end{itemize}
 \begin{dashlist}
     % \item \uline {Logistics Optimization}: Assisted in managing logistics data for Amazon Logistics operations in North America (US \& Canada) by leveraging AWS S3 for structured data storage and Athena for querying delivery performance insights.
-    \item \uline {Logistics Optimization}: Assisted in managing logistics data for Amazon Logistics operations in North America (US \& Canada) by leveraging AWS S3 and Athena.
+    \item \uline {Logistics Optimization}: Supported logistics operations for Amazon Logistics across the US and Canada.
     % \item \uline {Monitoring \& Issue Resolution}: Used Amazon CloudWatch to track data processing metrics for 500+ delivery stations, helping identify anomalies \& improve last-mile delivery efficiency.
     % \item  \uline {Knowledge Sharing \& Team Support}: Acted as a Subject Matter Expert (SME), mentoring 8 new associates on cloud-based logistics data management, ensuring adherence to best practices.
-    \item \uline {Knowledge Sharing \& Team Support}: Acted as a Subject Matter Expert (SME), mentoring 8 new associates on cloud-based logistics data management.
+    \item \uline {KT \& Team lead}: Served as a Subject Matter Expert and mentored 8 new associates on cloud-based logistics data management.
     % \item Data management: Streamlined information flow for Amazon Logistics across North America, managing data for 500+ delivery stations and impacting 80+ daily deliveries, ensuring efficient operations.
     % \item Team leadership and mentoring: Guided and mentored 8 new associates as a Subject Matter Expert (SME), taking responsibility for their processes and deliverables.
-    \item \uline {Quality improvement initiative}: Enhanced deliverables' quality by reviewing 100+ work items weekly and providing targeted feedback, resulting in a 20\% reduction in errors and improved overall performance.
+    \item \uline {Quality improvement initiative}: Reviewed 100+ weekly work items and provided targeted feedback, reducing errors by 20\% \& improving overall performance.
 \end{dashlist}
 
 \section*{EDUCATION}
@@ -170,8 +172,8 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
 \item \textbf{Skills: Azure DevOps, Azure Key Vault, CI/CD}
 \end{itemize}
 \begin{dashlist}
-    \item Designed an Azure DevOps pipeline to automate synchronization of secrets from Azure Library to Azure Key Vault using Azure CLI.
-    \item Implemented object-based parameter storage, enabling retrieval of both secret names and values for secure injection into Key Vault via the Az CLI command.
+    \item Designed an AzDO pipeline to automate secrets sync from Azure Library to Azure Key Vault.
+    \item Implemented object-based parameter storage, enabling retrieval of both secret names and values.
     % \item Integrated environment-based approval gates, enforcing staged validation before secret updates in Development, QA, Stage, and Production environments.
 \end{dashlist}
 \vspace{0.5em}
@@ -181,10 +183,10 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
 \item \textbf{Skills: AWS, Kubernetes, Crossplane, Helm, GitHub Actions, OIDC}
 \end{itemize}
 \begin{dashlist}
-    \item Provisioned and managed AWS infrastructure using Crossplane, including VPC, subnets, NAT/Internet gateways, \& route tables.
+    \item Provisioned and managed AWS infrastructure using Crossplane.
     \item Deployed an EKS cluster with IAM-integrated Node Groups \& secure OIDC-based Kubernetes access.
     \item Enabled persistent storage \& autoscaling via CSI driver and Cluster Autoscaler, using Helm.
-    \item Used Minikube for local Crossplane development and validated AWS resources through kubectl.    
+    % \item Used Minikube for local Crossplane development and validated AWS resources through kubectl.    
 \end{dashlist}
 \vspace{0.5em}
 
@@ -193,8 +195,8 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
 \item \textbf{Skills: GitHub Actions, AWS, Kubernetes, OIDC, Terraform, Go, ArgoCD}
 \end{itemize}
 \begin{dashlist}
-    \item Automated AWS infrastructure provisioning using modular Terraform and GitHub Actions, leveraging S3 for remote state management.
-    \item Built a secure CI/CD pipeline with GitHub Actions, Kaniko, and ArgoCD, eliminating AWS access keys via OIDC authentication.
+    \item Automated AWS infra provisioning using modular Terraform and GitHub Actions, leveraging S3.
+    \item Built CI/CD with GitHub Actions, Kaniko \& ArgoCD, eliminating AWS access keys via OIDC.
     \item Deployed a self-hosted runner on EC2, optimizing pipeline execution for Kubernetes workloads.
     % \item Resolved CI/CD failures, including Kubernetes authentication mismatches and Docker build issues, improving deployment reliability.
 \end{dashlist}
@@ -205,8 +207,8 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
 \item \textbf{Skills: GCP, Terraform, Kubernetes, Cloud Build, Python}
 \end{itemize}
 \begin{dashlist}
-    \item Deployed a Kubernetes cluster on Google Kubernetes Engine (GKE) using Terraform, implementing taints, tolerations, and affinities for optimized workload scheduling.
-    \item Configured custom VPC and subnets with dedicated IP ranges for pods and services, ensuring network isolation. Used Google Cloud Build for deployments to GKE.
+    \item Deployed a Kubernetes cluster on GKE using Terraform, implementing taints, tolerations, and affinities.
+    \item Configured custom VPC \& subnets for pods. Used Google Cloud Build for deployments to GKE.
     % \item Implemented CI/CD automation with Google Cloud Build, enabling seamless containerized application deployments to GKE.
 \end{dashlist}
 \vspace{0.5em}
@@ -234,7 +236,7 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
 \begin{itemize}
     \item HashiCorp Certified: Terraform Associate (003)
     \item Microsoft Certified: DevOps Engineer Expert (AZ-400)
-    \item Microsoft Certified: Azure Administrator Associate (AZ-104)
+    % \item Microsoft Certified: Azure Administrator Associate (AZ-104)
     \item Microsoft Certified: Azure AI Engineer Associate (AI-102)
     % \item Microsoft Certified: Azure Fundamentals (AZ-900)
     % \item Microsoft Certified: Azure Data Fundamentals (DP-900)
@@ -246,18 +248,18 @@ Bachelor of Technology (\textit{Anabin recorgnised : H+})\hfill Aug 2016 – Sep
     \item Duolingo English Test: CEFR C1 (Advanced)
 \end{itemize}
 
-% \section*{RESEARCH PUBLICATIONS}
-% \begin{itemize}
-%     \item Artificial Intelligence in the Insurance Sector - Journal of The Gujarat Research Society
-%     \item Blockchain for Loyalty Rewards Program Management - Journal of The Gujarat Research Society
-%     \item Rocker Rover And Its Implementation - Journal of Emerging Technologies
-%     \item Modeling of Rocker Rover for Its Implementation - IJRTE (SCOPUS INDEXED JOURNAL)
-% \end{itemize}
+\section*{RESEARCH PUBLICATIONS}
+\begin{itemize}
+    \item Artificial Intelligence in the Insurance Sector - Journal of The Gujarat Research Society
+    \item Blockchain for Loyalty Rewards Program Management - Journal of The Gujarat Research Society
+    \item Rocker Rover And Its Implementation - Journal of Emerging Technologies
+    \item Modeling of Rocker Rover for Its Implementation - IJRTE (SCOPUS INDEXED JOURNAL)
+\end{itemize}
 
 \vfill % Pushes the content to the bottom of the page
 \noindent % Prevents paragraph indentation
 \begin{flushright} % Aligns text to the right
-    \textit{Date: 26.10.2025}\\ % Adds the date below the name
+    \textit{Date: 07.12.2025}\\ % Adds the date below the name
     \textit{Harshit Bisht} % Adds your signature name
 \end{flushright}
 
