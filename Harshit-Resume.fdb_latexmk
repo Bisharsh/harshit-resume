@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1765122859.80866 "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" "Harshit-Resume.pdf" "Harshit-Resume" 1765122860.48549 2
-  "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" 1765122858.74177 15486 24e5065cd00607d1defecf81573ea69b ""
+["pdflatex"] 1767393534.16967 "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" "Harshit-Resume.pdf" "Harshit-Resume" 1767393534.86108 2
+  "/Users/harshitbisht/Projects/Job-Apply/Latex/Harshit-Resume.tex" 1767393532.95104 16162 65950e2efd7dd89d0ca0f1e2402675b8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -162,9 +162,9 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732376842 8221431 10b8fc5e5bb89da799f19ff8aa10e80e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Harshit-Photo.jpg" 1740929057.08511 1121448 9f5bf2bc973034c6c9f38aa658a6c4ce ""
-  "Harshit-Resume.aux" 1765122860.41731 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "Harshit-Resume.out" 1765122860.23704 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Harshit-Resume.tex" 1765122858.74177 15486 24e5065cd00607d1defecf81573ea69b ""
+  "Harshit-Resume.aux" 1767393534.79344 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "Harshit-Resume.out" 1767393534.61006 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Harshit-Resume.tex" 1767393532.95104 16162 65950e2efd7dd89d0ca0f1e2402675b8 ""
   (generated)
   "Harshit-Resume.aux"
   "Harshit-Resume.log"
